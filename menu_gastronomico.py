@@ -111,6 +111,10 @@ def cocina_francesa():
     comentario_frnc = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_frnc} ¡Oh ese plato también nos encanta!")
 
+def cocina_mediterranea():
+    print("COCINA MEDITERRÁNEA")
+    print("-" * 50)
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
