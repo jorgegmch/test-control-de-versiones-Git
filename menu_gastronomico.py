@@ -153,6 +153,20 @@ def carnes():
     comentario_carnes = input("Cuentanos que corte de carne te gusta más: ")
     print(f"{comentario_carnes} ¡Oh ese corte también nos encanta!")
 
+def postres():
+    print("POSTRES")
+    print("-" * 50)
+    print("Descripción:" \
+    "La cocina italiana es famosa por sus sabores frescos y autenticos," \
+    "basados en ingredientes simples como tomate, ajo, aceite de oliva y hierbas.")
+    print("Platos platos principales")
+    print("Pizza margarita: Masa fina cubierta con tomate, mozzarella, y albahaca.")
+    print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
+    print("Risotto al Funghi: Arroz cremoso con setas.")
+    print("Bebidas recomendadas: Café")
+    comentario_carnes = input("Cuentanos que postre te gusta más: ")
+    print(f"{comentario_carnes} ¡Oh ese postre también nos encanta!")
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
