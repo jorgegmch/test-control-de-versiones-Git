@@ -66,8 +66,13 @@ def cocina_japonesa():
     print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
+<<<<<<< HEAD
     comentario_mex = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_mex} ¡Oh ese plato también nos encanta!")
+=======
+    comentario_jp = input("Cuentanos que plato te ha gustado más: ")
+    print(f"{comentario_jp} ¡Oh ese plato también nos encanta!")
+>>>>>>> correcciones
 
 def cocina_india():
     print("COCINA INDIA")
@@ -173,34 +178,34 @@ while isActive:
 
     match choice:
         case "1":
-            pass
+            cocina_italaiana()
             pause()
         case "2":
-            pass
+            cocina_mexicana()
             pause()
         case "3":
-            pass
+            cocina_japonesa()
             pause()
         case "4":
-            pass
+            cocina_india()
             pause()
         case "5":
-            pass
+            cocina_china()
             pause()
         case "6":
-            pass
+            cocina_francesa()
             pause()
         case "7":
-            pass
+            cocina_mediterranea()
             pause()
         case "8":
-            pass
+            cocina_vegetariana()
             pause()
         case "9":
-            pass
+            carnes()
             pause()
         case "10":
-            pass
+            postres()
             pause()
         case "0":
             mensaje_salir()
