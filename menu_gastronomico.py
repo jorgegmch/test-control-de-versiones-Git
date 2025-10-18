@@ -80,8 +80,9 @@ def cocina_india():
     print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
+    comentario_ind = input("Cuentanos que plato te ha gustado más: ")
+    print(f"{comentario_ind} ¡Oh ese plato también nos encanta!")
 
-    
 isActive = True
 while isActive:
     choice = menu_gastronimo()
