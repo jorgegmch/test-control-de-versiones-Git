@@ -86,6 +86,9 @@ def cocina_india():
 def cocina_china():
     print("COCINA CHINA")
     print("-" * 50)
+    print("Descripción:" \
+    "La cocina italiana es famosa por sus sabores frescos y autenticos," \
+    "basados en ingredientes simples como tomate, ajo, aceite de oliva y hierbas.")
 
 isActive = True
 while isActive:
