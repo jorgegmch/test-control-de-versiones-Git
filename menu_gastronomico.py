@@ -164,6 +164,8 @@ def postres():
     print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Café")
+    comentario_carnes = input("Cuentanos que postre te gusta más: ")
+    print(f"{comentario_carnes} ¡Oh ese postre también nos encanta!")
 
 isActive = True
 while isActive:
