@@ -97,6 +97,10 @@ def cocina_china():
     comentario_ch = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_ch} ¡Oh ese plato también nos encanta!")
 
+def cocina_francesa():
+    print("COCINA FRANCESA")
+    print("-" * 50)
+
 
 isActive = True
 while isActive:
