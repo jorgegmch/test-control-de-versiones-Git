@@ -83,6 +83,21 @@ def cocina_india():
     comentario_ind = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_ind} ¡Oh ese plato también nos encanta!")
 
+def cocina_china():
+    print("COCINA CHINA")
+    print("-" * 50)
+    print("Descripción:" \
+    "La cocina italiana es famosa por sus sabores frescos y autenticos," \
+    "basados en ingredientes simples como tomate, ajo, aceite de oliva y hierbas.")
+    print("Platos platos principales")
+    print("Pizza margarita: Masa fina cubierta con tomate, mozzarella, y albahaca.")
+    print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
+    print("Risotto al Funghi: Arroz cremoso con setas.")
+    print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
+    comentario_ch = input("Cuentanos que plato te ha gustado más: ")
+    print(f"{comentario_ch} ¡Oh ese plato también nos encanta!")
+
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
