@@ -137,7 +137,21 @@ def cocina_vegetariana():
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
     comentario_vg = input("Cuentanos que plato te ha gustado más: ")
-    print(f"{comentario_vg} ¡Oh ese plato también nos encanta!")
+    print(f"{comentario_vg} ¡Oh ese plato también nos encanta!")   
+
+def carnes():
+    print("CARNES")
+    print("-" * 50)
+    print("Descripción:" \
+    "La cocina italiana es famosa por sus sabores frescos y autenticos," \
+    "basados en ingredientes simples como tomate, ajo, aceite de oliva y hierbas.")
+    print("Platos platos principales")
+    print("Pizza margarita: Masa fina cubierta con tomate, mozzarella, y albahaca.")
+    print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
+    print("Risotto al Funghi: Arroz cremoso con setas.")
+    print("Bebidas recomendadas: Vino tinto")
+    comentario_carnes = input("Cuentanos que corte de carne te gusta más: ")
+    print(f"{comentario_carnes} ¡Oh ese corte también nos encanta!")
 
 isActive = True
 while isActive:
