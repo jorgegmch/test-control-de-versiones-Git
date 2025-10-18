@@ -83,6 +83,10 @@ def cocina_india():
     comentario_ind = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_ind} ¡Oh ese plato también nos encanta!")
 
+def cocina_china():
+    print("COCINA CHINA")
+    print("-" * 50)
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
