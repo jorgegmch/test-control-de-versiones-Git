@@ -137,7 +137,11 @@ def cocina_vegetariana():
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
     comentario_vg = input("Cuentanos que plato te ha gustado más: ")
-    print(f"{comentario_vg} ¡Oh ese plato también nos encanta!")
+    print(f"{comentario_vg} ¡Oh ese plato también nos encanta!")   
+
+def carnes():
+    print("CARNES")
+    print("-" * 50) 
 
 isActive = True
 while isActive:
