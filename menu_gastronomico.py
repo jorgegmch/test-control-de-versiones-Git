@@ -27,6 +27,11 @@ def menu_gastronimo():
     opcion = input("Ingrese una opción (0-10): ")
     return opcion
 
+def cocina_italaiana():
+    print("COCINA ITALIANA")
+    print("-" * 50)
+    
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
