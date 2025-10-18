@@ -23,3 +23,45 @@ def menu_gastronimo():
     print("0. Salir")
     opcion = input("Ingrese una opción (0-10): ")
     return opcion
+
+isActive = True
+while isActive:
+    choice = menu_gastronimo()
+
+    match choice:
+        case "1":
+            pass
+            pause()
+        case "2":
+            pass
+            pause()
+        case "3":
+            pass
+            pause()
+        case "4":
+            pass
+            pause()
+        case "5":
+            pass
+            pause()
+        case "6":
+            pass
+            pause()
+        case "7":
+            pass
+            pause()
+        case "8":
+            pass
+            pause()
+        case "9":
+            pass
+            pause()
+        case "10":
+            pass
+            pause()
+        case "0":
+            print("Muchas gracias por usar el programa.")
+            break
+        case _:
+            print("Opción no válida. Intente nuevamente.")
+            pause()
