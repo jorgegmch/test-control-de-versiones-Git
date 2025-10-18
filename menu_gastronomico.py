@@ -27,6 +27,20 @@ def menu_gastronimo():
     opcion = input("Ingrese una opción (0-10): ")
     return opcion
 
+def cocina_italaiana():
+    print("COCINA ITALIANA")
+    print("-" * 50)
+    print("Descripción:" \
+    "La cocina italiana es famosa por sus sabores frescos y autenticos," \
+    "basados en ingredientes simples como tomate, ajo, aceite de oliva y hierbas.")
+    print("Platos platos principales")
+    print("Pizza margarita: Masa fina cubierta con tomate, mozzarella, y albahaca.")
+    print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
+    print("Risotto al Funghi: Arroz cremoso con setas.")
+    print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
+    comentario_ita = input("Cuentanos que plato te ha gustado más: ")
+    print(f"{comentario_ita} ¡Oh ese plato también nos encanta!")
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
