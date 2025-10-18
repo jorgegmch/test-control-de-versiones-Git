@@ -66,6 +66,8 @@ def cocina_japonesa():
     print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
     print("Risotto al Funghi: Arroz cremoso con setas.")
     print("Bebidas recomendadas: Jugo de corozo, fresa o uva")
+    comentario_mex = input("Cuentanos que plato te ha gustado más: ")
+    print(f"{comentario_mex} ¡Oh ese plato también nos encanta!")
 
 isActive = True
 while isActive:
