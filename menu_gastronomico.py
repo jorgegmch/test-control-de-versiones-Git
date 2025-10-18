@@ -149,7 +149,8 @@ def carnes():
     print("Pizza margarita: Masa fina cubierta con tomate, mozzarella, y albahaca.")
     print("Pasta carbonara: Espaguetis en salsa de huevo, queso pecorino, panceta y pimienta.")
     print("Risotto al Funghi: Arroz cremoso con setas.")
-    
+    print("Bebidas recomendadas: Vino tinto")
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
