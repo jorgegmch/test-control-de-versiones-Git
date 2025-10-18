@@ -153,6 +153,10 @@ def carnes():
     comentario_carnes = input("Cuentanos que corte de carne te gusta más: ")
     print(f"{comentario_carnes} ¡Oh ese corte también nos encanta!")
 
+def postres():
+    print("POSTRES")
+    print("-" * 50)
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
