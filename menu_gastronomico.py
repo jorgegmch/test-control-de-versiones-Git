@@ -41,6 +41,11 @@ def cocina_italaiana():
     comentario_ita = input("Cuentanos que plato te ha gustado más: ")
     print(f"{comentario_ita} ¡Oh ese plato también nos encanta!")
 
+def cocina_mexicana():
+    print("COCINA MEXICANA")
+    print("-" * 50)
+    
+
 isActive = True
 while isActive:
     choice = menu_gastronimo()
