@@ -6,6 +6,9 @@ def clear_screen():
 def pause():
     input("Presione ENTER para continuar...")
 
+def mensaje_salir():
+    print("Gracias por usar el programa.")
+
 def menu_gastronimo():
     clear_screen()
     print("BIENVENIDO A LA GUÍA DE MENÚS GASTRONÓMICOS")
@@ -60,7 +63,7 @@ while isActive:
             pass
             pause()
         case "0":
-            print("Muchas gracias por usar el programa.")
+            mensaje_salir()
             break
         case _:
             print("Opción no válida. Intente nuevamente.")
